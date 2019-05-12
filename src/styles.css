@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(to left, white, black);
+  display: flex;
+}
+.pagination {
+  display: flex;
+  left: 0px;
+  top: 100%;
+  right: 0%;
+  transform: translate(25%, 20%);
+}
+
+.page-list {
+  width: 800px;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+.page-item {
+  float: left;
+  margin: 2px;
+  padding: 4px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.page-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+ul {
+  list-style-type: none;
+}
+.active {
+  color: blue;
+  background-image: linear-gradient(to bottom, red, green);
+  float: left;
+  border: none;
+}
